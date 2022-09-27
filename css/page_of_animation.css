@@ -1,0 +1,122 @@
+
+/* 1 */
+.item {
+    width: 200px;
+    height: 200px;
+    background: gray;
+    font-size: 50px;
+    border-radius: 10%;
+    animation: rotate 3s infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateX(360deg);
+        background: yellow;
+    }
+}
+
+/* 2 */
+input {
+    opacity: 0;
+}
+
+label {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    /* border-radius: 50%; */
+}
+
+input:checked + label {
+    background-color: red;
+}
+
+/* 3 */
+.item_z {
+    width: 200px;
+    height: 200px;
+    background: gray;
+    font-size: 50px;
+    border-radius: 10%;
+    justify-content: flex-end;
+    animation: rotate_z 2s infinite;
+}
+
+@keyframes rotate_z {
+    from {
+        transform: rotateX(100deg);
+        width: 50px;
+    }
+    to {
+        transform: rotateX(360deg);
+        opacity: 0.1;
+        width: 300px;
+        border-radius: 50%;
+    }
+}
+
+button {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    border: 1px;;
+    transition: 1s all;
+}
+
+.btn:hover {
+    /* width: 150px;
+    height: 150px; */
+    transform: scale(2);
+}
+
+/* 4 */
+.div-box {
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    background: green;
+    box-shadow: 4px 4px 30px black;
+}
+
+/* 5 */
+.text-shadow {
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px red;
+}
+
+/* 6 */
+.box-re {
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    background: green;
+    box-shadow: 4px 4px 30px yellow;
+    transform: rotateZ(45deg);
+}
+
+/* 7 */
+.rotate-box {
+    margin-top: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    perspective: 400px;
+}
+
+.rotate-z {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    box-shadow: 4px 4px 20px black;
+    transition: 0.7s all
+}
+.rotate-z:hover {
+    transform: rotateY(95deg);
+}

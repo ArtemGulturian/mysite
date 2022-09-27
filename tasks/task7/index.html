@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 7</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>   
+    <section>
+      <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+        <h2>This task worked out in console.</h2>
+        <code>Измените данный массив так, чтобы все числа были увеличены в 2 раза, а если попадается строка строка - то к ней было добавлено " - done". Для определения типа данных используйте typeof(); Должно получиться: [ 10, 20, 'Shopping - done', 40, 'Homework - done' ]</code>
+        <p class="codeText">
+          function sevenTask() {<br>
+            <br>
+            const data = [5, 10, 'Shopping', 20, 'Homework'];<br>
+            <br>
+                for (let i = 0; i < data.length; i++){<br>
+                  <br>
+                    if (typeof(data[i])==='string'){<br>
+                        data[i] = `${data[i]} - done`;<br>
+                    } else<br>
+                    if (typeof(data[i])==='number'){<br>
+                        data[i] = data[i] * 2;<br>
+                    }<br>
+                }<br>
+                console.log(data);<br>
+                <br>
+            return data;<br>
+          }<br>
+          sevenTask();                           <br>
+        </p>
+
+        <button class="buttonPreviousTask"><a href="http://wecanhelp.online/tasks/task6/index.html">Previous</a></button>
+        <button class="buttonNextTask"><a href="http://wecanhelp.online/tasks/task8/index.html">Next</a></button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artem Gulturian CV</title>
+    <link rel="stylesheet" href="css/ag3.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#projects" class="w3-bar-item w3-button w3-hover-none">Artem Gulturian</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a></div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#projects" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">PROJECTS</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+        
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+
+        <!--IMAGE/AVATAR-->
+        
+        <img src="avatar.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+
+          <!--
+            <a class="icon-link w3-text-sand w3-hover-text-amber" href="#facebook" target="_blank">
+            <i data-feather="facebook"></i>
+          </a> -->
+
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/artem.gulturyan/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          
+          <!--
+            <a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank">
+              <i data-feather="twitter"></i>
+            </a>
+          -->
+
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/artem-gulturyan-03bb65b6/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+
+        </div>
+
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./Artem_Gulturian_Junior_JS_Developer.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="Artem_Gulturian_Junior_JS_Developer.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#projects" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">Gulturian Artem</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#projects" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">PROJECTS</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+
+          <!--HOME SECTION-->
+
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
+            <h1>Artem Gulturian (35)</h2>
+            <h2>Junior JavaScript / Web Developer</h3>
+          </div>
+
+          <!--ABOUT SECTION-->
+
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+              <p class="w3-margin-top-2">
+                  I'm young Javascript specialist. Early I worked as Google/Facebook (Meta) Media Buyer Specialist since 2013 by 2022. I created sites to my advertising company by myself.
+                </p>
+                <p>I'm going to learn programming language React, TypeScript, Vue.</p>
+            </div>
+
+          <!--RESUME-->
+
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+                <!--EMPLOYMENT HISTORY SECTION-->
+                <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+                <div class="">
+                  <h4>Junior Web Developer</h4>
+                  <p>September 2019 - October 2020</p>
+                  <ul class="w3-ul" style="font-weight: 500;">
+                    <li>Built the sites to the team of traffic</li>
+                    <li>Modified and upgraded the current sites</li>
+                    <li>Worked with google tag manager and analytics; a Meta (facebook) pixels was installed</li>
+                  </ul>
+                </div>
+
+                <!---EDUCATION SECTION-->
+                <div class="w3-container w3-margin-top-2 w3-cursive">
+                  <h3 class="w3-border-amber">MY EDUCATION</h3>
+                    <h4>Kiev Nationaly Economic University, Economic Cybernetics, Ukraine</h4>
+                    <p>September 2003 - July 2008 </p>
+                    <h4>Highschool diploma, Slavutich sity, Ukraine</h4>
+                    <p>September 1993 - July 2003 </p>
+                </div>
+
+                <!--SKILLS SECTION-->
+                <div class="w3-container w3-margin-top-2 w3-cursive">
+                  <h3 class="w3-border-amber">MY SKILLS</h3>
+                  <!--SOFT SKILLS-->
+                  <h4>Soft skills</h4>
+                  <ul class="w3-ul" style="font-weight: 500;">
+                    <li>I have excelent communication skill and confidence in front of an audience</li>
+                  </ul>
+                  <!--TECHNICAL SKILLS-->
+                  <h4>Technical skills</h4>
+                    <ul class="w3-ul" style="font-weight: 500;">
+                      <li>I am proficient in technical writing</li>
+                      <li>I have Junior knowleges in JavaScript</li>
+                      <li>I have great knowleges of Git, GitHub, Visual Studio, HTML, CSS, Photoshop CS6, Figma</li>
+                    </ul>
+                </div>
+
+                <!-- INTERESTS SECTION
+                <div class="w3-container w3-margin-top-2 w3-cursive">
+                  <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                    <ul class="w3-ul" style="font-weight: 500;">
+                      <li>I love mountain hiking and cycling in my free time</li>
+                      <li>I like to play board games with other people</li>
+                    </ul>
+                </div> -->
+
+                <!--REFERENCE SECTION-->
+                <!-- <div class="w3-container w3-margin-top-2 w3-cursive">
+                  <h3 class="w3-border-amber">MY REFERENCES</h3>
+                  <h4>Jane Doe,</h4>
+                  <ul class="w3-ul" style="font-weight: 500;">
+                    <li></li>
+                    <li></li>
+                  </ul>
+                  <h4>Margaret Johnson, Manager at Company-Y</h4>
+                  <ul class="w3-ul" style="font-weight: 500;">
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div> -->
+            </div>
+          </div>
+          <!--END RESUME-->
+
+          <!--PROJECTS SECTION-->
+          <div id="projects" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY PROJECTS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <ul>
+                <li><h3><a href="page_console_tasks.html" target="_blank">console tasks</a></h3></li>
+                <li><h3><a href="page_websites_projects.html" target="_blank">websites projects for PC</a></h3></li>
+                <li><h3><a href="page_of_animation.html" target="_blank">animation</a></h3></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Artem Gulturian</p>
+              <!--<p>Adress: Street name 99, 77001 Houston, Texas</p> -->
+              <p>Phone number:  &#127482;&#127462; +380937683025</p>
+              <p>E-mail: gulturian.a@gmail.com</p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/artem-gulturyan-03bb65b6/" target="_blank">Artem Gulturian</a></p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2022 - Artem Gulturian</p>
+           <!--<p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p> -->
+          <!--<a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a>  -->
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  </body>
+</html>

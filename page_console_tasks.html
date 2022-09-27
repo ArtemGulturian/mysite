@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Console Tasks</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>   
+    <section>
+      <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+
+        <div class="button_box">
+          <button class="button"><span>1</span></button>
+          <button class="button"><span>2</span></button>
+          <button class="button"><span>clear</span></button>
+          <!-- <button class="button"><span>1</span></button>
+          <button class="button"><span>1</span></button> -->
+        </div>
+
+        <h4>Tasks:</h4>
+          <ol id="parent">
+            <li><a href="tasks/task1/index.html" target="_blank">При помощи цикла выведите числа от 5 до 10 в консоль. 5 и 10 включительно. Цикл можно использовать любой</a></li>
+            <li><a href="tasks/task2/index.html" target="_blank">При помощи цикла for вывести числа от 20 до 10 в консоль. В обратном порядке (20, 19, 18...). Когда цикл дойдет до числа 13 - остановить весь цикл</a></li>
+            <li><a href="tasks/task3/index.html" target="_blank">При помощи цикла for выведите чётные числа от 2 до 10 включительно</a></li>
+            <li><a href="tasks/task4/index.html" target="_blank">Перепишите цикл  for на вариант с while. Результат должен остаться точно таким же. Не создайте бесконечный цикл! Иначе браузер может зависнуть.</a></li>
+            <li><a href="tasks/task5/index.html" target="_blank">Заполните массив цифрами от 5 до 10 включительно. Помните, что элементы массива можно сформировать так же, как и обращаться к ним: arr[0]</a></li>
+            <li><a href="tasks/task6/index.html" target="_blank">Заполните новый массив (result) числами из старого (arr). Количество элементов в массиве можно получить как arr.length, а к элементам обращаемся все так же: arr[0], arr[1] и тд.</a></li>
+            <li><a href="tasks/task7/index.html" target="_blank">Измените данный массив так, чтобы все числа были увеличены в 2 раза, а если попадается строка строка - то к ней было добавлено " - done". Для определения типа данных используйте typeof(); Должно получиться: [ 10, 20, 'Shopping - done', 40, 'Homework - done' ]</a></li>
+            <li><a href="tasks/task8/index.html" target="_blank">Разверните массив data наоборот при помощи цикла и запишите данные в массив result. Должно получиться: [ 'Homework', 20, 'Shopping', 10, 5 ]</a></li>
+            <li><a href="tasks/task9/index.html" target="_blank">Сейчас вам необходимо написать код, который при помощи звездочек (*) в консоли нарисует вот такую фигуру пирамида</a></li>
+            <li><a href="tasks/task10/index.html" target="_blank">Создайте функцию, которая будет на вход принимать 1 аргумент с именем человека и возвращать строку.</a></li>
+            <li><a href="tasks/task11/index.html" target="_blank">Создайте функцию, которая принимает в себя 1 аргумент в виде целого числа и возвращает массив из трех чисел: одно на 1 меньше, сам аргумент, и число на 1 больше.</a></li>
+            <li><a href="tasks/task12/index.html" target="_blank">Создайте функцию, которая будет принимать в себя 2 аргумента, оба числа. Первое число - это база, второе число - это сколько раз нужно будет повторить это число в прогрессии. (Смотри пример ниже). Функция должна возвращать строку (или число в особых случаях, о которых ниже), где эти числа идут по порядку, разделенные тремя дефисами "---". После последнего числа их не должно быть</a></li>
+            <li><a href="tasks/task13/index.html" target="_blank">Создайте функцию, которая будет вычислять объем и площадь полной поверхности куба (тоже базовая математика, иногда используется в создании анимаций). Эта функция принимает в себя целое число со значением длины ребра куба. Ответ выведите в формате строки, который изображен в примерах.</a></li>
+            <li><a href="tasks/task14/index.html" target="_blank">Напишите функцию, которая будет определять номер купе по переданному ей номеру места. 9 купе, всего 36 мест.</a></li>
+            <li><a href="tasks/task15/index.html" target="_blank">Создайте функцию, которая принимает в себя целое число минут и возвращает время в нужном формате строки. (Смотри пример). Обратите внимание на окончание слова "час" - оно меняется в зависимости от цифры. Если вместо аргумента приходит не число, дробное или отрицательное число - функция возвращает строку "Ошибка, проверьте данные".</a></li>
+            <li><a href="tasks/task16/index.html" target="_blank">Напишите функцию, которая принимает в себя 4 числа и возвращает самое большее из них. Если один из аргументов не является числом или их меньше 4 - возвращается 0. Дробные числа разрешены.</a></li>
+            <li><a href="tasks/task17/index.html" target="_blank">Создайте функцию, которая будет принимать в себя один аргумент-целое положительное число. Она должна возвращать строку, в которой будут через пробел выведены числа Фибоначчи. Причем, их количество должно быть равно переданному аргументу.</a></li>
+            <li><a href="tasks/task18/index.html" target="_blank">Напишите функцию showExperience, которая будет принимать в себя объект со всеми данными и возвращать строку с опытом. Напишите функцию showProgrammingLangs, которая будет принимать в себя объект со всеми данными и возвращать строку в нужном виде. Создайте метод showAgeAndLangs внутри объекта personalPlanPeter. При его вызове метод будет принимать в себя объект и возвращать строку в нужном виде (=> 'Мне 29 и я владею языками: RU ENG').</a></li>
+            <li><a href="tasks/task19/index.html" target="_blank">Напишите функцию showFamily, которая будет принимать в себя массив строк и возвращать сообщение в нужном формате: showFamily(family)  => 'Семья состоит из: Peter Ann Alex Linda'. напишите функцию standardizeStrings, которая будет принимать в себя массив строк и будет выводить в консоль эти строки в нижнем регистре.</a></li>
+            <li><a href="tasks/task20/index.html" target="_blank">Напишите функцию reverse, которая принимает в себя строку и возвращает эту строку в обратном порядке.Представьте такую реальную ситуацию. У вас есть банкомат, который выдает деньги из двух разных банков в разных валютах. Один банк основной с базовыми валютами, второй дополнительный с прочими валютами.</a></li>
+            <li><a href="tasks/task21/index.html" target="_blank">Hаписать функцию isBudgetEnough, которая буде возвращать строку. Если бюджета хватает для отопления всего объема торгового центра - выводится 'Бюджета достаточно', если нет - 'Бюджета недостаточно'.</a></li>
+            <li><a href="tasks/task22/index.html" target="_blank">У вас есть список учеников, которые хотят поиграть в игру. Но команд может быть только 3 по 3 человека. Напишите функцию sortStudentsByGroups, которая принимает в себя массив строк. Внутри она сначала сортирует имена по алфавиту. Затем распределяет учеников по 3 человека в 3 группы по алфавитному порядку. Эти группы должны быть массивами. Как итог, функция возвращает новый массив с тремя командами и строкой как 4й элемент.</a></li>
+            <li><a href="tasks/task23/index.html" target="_blank">Функция должна принимать 1 аргумент, который будет являться числом. Будет неплохо, если вы на собеседовании сразу напишите проверку на приходящее значение :) Поэтому, если в нашу функцию приходит дробное число или не число  - возвращается строка с любым сообщением на ваше усмотрение. Если 0 и меньше - возвращается число 1.</a></li>
+            <li><a href="tasks/task24/index.html" target="_blank">В каждой книге есть n страниц с номерами страниц от 1 до n. Написать функцию amountOfPages, аргумент которой summary составляется путем сложения количества цифр всех номеров страниц. Эта функция возвращает число - количество страниц n в книге.</a></li>
+            <li><a href="tasks/task25/index.html" target="_blank">Напишите функцию isPangram, которая принимает в себя строку и возвращает логическое значение. Если строка является панграммой - вернется true, если нет - false.</a></li>
+            <li><a href="tasks/task26/index.html" target="_blank">Создайте функцию deepCount, которая будет считать количество всех элементов в массиве, включая и вложенные массивы. Учтите, что сам вложенный массив тоже входит в счет.</a></li>
+            <li><a href="tasks/task27/index.html" target="_blank">Функция скрывает номер карты, кроме последних 4-х цыфр</a></li>
+            <li><a href="tasks/task28/index.html" target="_blank">Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number. => returns "(123) 456-7890"</a></li>
+            <li><a href="tasks/task29/index.html" target="_blank">All numbers are valid Int32, no need to validate them. There will always be at least one number in the input string. Output string must be two numbers separated by a single space, and highest number is first.</a></li>
+            <li><a href="tasks/task30/index.html" target="_blank">You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.</a></li>
+            <li><a href="tasks/task31/index.html" target="_blank">Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.</a></li>
+            <li><a href="tasks/task32/index.html" target="_blank">In this kata you are required to, given a string, replace every letter with its position in the alphabet. If anything in the text isn't a letter, ignore it and don't return it. "a" = 1, "b" = 2, etc.</a></li>
+            <li><a href="tasks/task33/index.html" target="_blank">33</a></li>
+            <li><a href="tasks/task34/index.html" target="_blank">Given a string of words, you need to find the highest scoring word. Each letter of a word scores points according to its position in the alphabet: a = 1, b = 2, c = 3 etc. You need to return the highest scoring word as a string. If two words score the same, return the word that appears earliest in the original string. All letters will be lowercase and all inputs will be valid.</a></li>
+            <li><a href="tasks/task35/index.html" target="_blank">Find the missing letter Write a method that takes an array of consecutive (increasing) letters as input and that returns the missing letter in the array. You will always get an valid array. And it will be always exactly one letter be missing. The length of the array will always be at least 2. The array will always contain letters in only one case. Example: ['a','b','c','d','f'] -> 'e' ['O','Q','R','S'] -> 'P'</a></li>
+            <li><a href="tasks/task36/index.html" target="_blank">Task with URL</a></li>
+            <li><a href="tasks/task37/index.html" target="_blank">37</a></li>
+          </ol>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
