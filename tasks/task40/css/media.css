@@ -1,0 +1,91 @@
+@media (max-width: 1230px) {
+    /* header */
+    /* .header{
+        display: none
+    } */
+
+    /* .header__left-block{
+        display: none;        
+    } */
+
+    .header__links{
+        display: none;
+    }
+
+    .header__logo{display: none;}
+
+    .header__logo-mob{
+        max-width:170px
+    }
+
+    .header__right-block{
+        display: none;
+    }
+
+    /* End of Header */
+
+    /* sidepanel */
+    .sidepanel{
+        display: none
+    }
+
+
+    /* End of sidepanel */
+
+    /* preview */
+    .preview{
+        display: none
+    }
+
+    /* end of preview */
+
+    /* offer */
+    .offer{
+        display: none;
+    }
+
+    /* End of offer */
+
+    /* calculating */
+    .calculating{
+        display: none;
+    }
+
+    /* end of calculating */
+
+    /* menu */
+    .menu{
+        display: none;
+    }
+
+    /* end of menu */
+
+    /* order */
+    .order{
+        display: none;
+    }
+
+    /* end of order */
+
+    /* promotion */
+    .promotion{
+        display: none;
+    }
+
+    /* end of promotion */
+
+    /* footer */
+    .footer{
+        display: none;
+    }
+
+    /* end of footer */
+
+    /* modal */
+    .modal{
+        display: none;
+    }
+
+    /* end of modal */
+
+}
